@@ -1,4 +1,4 @@
-# Class 001
+# Class 001 - The Machine Abstraction
 ## What is a computer
 The computer is a complicated light switch, its essence are switches that turn on and off, arranged in a way that switching one key will affect the end result.
 
@@ -44,5 +44,5 @@ A project can be called finished when applied a series of well defined inputs, g
 
 In case the expected result changes, it can be considered a new project, that needs to adapt to the new scenario.
 
-# References
+## References
 [Crash Course Computer Science](https://youtu.be/tpIctyqH29Q)
