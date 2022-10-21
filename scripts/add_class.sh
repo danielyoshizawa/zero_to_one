@@ -22,15 +22,16 @@ fi
 echo "Creating class ${c}"
 
 HOME="${PWD}/../"
-PROJECT_DIR="${HOME}/classes/${c}/projects/"
+CLASS_DIR="${HOME}/classes/${c}/"
+PROJECT_DIR="${CLASS_DIR}/projects/"
 CPP_DIR="${PROJECT_DIR}/c++"
 PYTHON_DIR="${PROJECT_DIR}/python"
 
 mkdir -p $CPP_DIR
 mkdir -p $PYTHON_DIR
 
-if [[ ! -e "${PROJECT_DIR}/README.md" ]]; then
-    touch "${PROJECT_DIR}/README.md"
+if [[ ! -e "${CLASS_DIR}/README.md" ]]; then
+    touch "${CLASS_DIR}/README.md"
 fi
 
 if [[ ! -e "${CPP_DIR}/README.md" ]]; then
